@@ -117,19 +117,12 @@ a {
     border-radius: 50%;
     display: grid;
     cursor: pointer;
-    
-  transition: all 0.25s ease;
+    transition: all 0.25s ease;
 }
 
 .share__btn__icon:hover, .share.active .share__btn__icon {
     background: var(--Desaturated-Dark-Blue);
     color: var(--Light-Grayish-Blue);
-}
-
-.share__btn__icon > a {
-    /* width: 3.8rem;
-    height: 3.8rem; */
-    /* margin-top: 2rem; */
 }
 
 .share__box {
